@@ -3,3 +3,82 @@
 	padding: 0;
 	font-family: arial;
 }
+
+.upperBox
+{
+	width: 100%;
+	background: url('../img/01.png');
+	background-size: cover;
+	overflow: auto;
+}
+
+header
+{
+	width: 940px;
+	margin: auto;
+
+}
+
+.navContainer
+{
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+nav
+{
+	width: 940px;
+	margin: auto;
+	overflow: hidden;
+	color: white;
+}
+
+nav * 
+{
+	float: left;
+}
+
+nav img
+{
+	display: block;
+}
+
+nav span
+{
+	font-family: 'Audiowide', cursive;
+	padding: 20px;
+
+}
+
+nav ul li
+{
+	padding: 20px;
+	list-style-type: none;
+	margin: 0 10px;
+}
+
+header img 
+{
+	float: left;
+	position:	relative;
+	top: 40px;
+}
+
+.sojuz
+{
+	font-family: 'Audiowide', cursive;
+	font-size: 50px;
+	color: white;
+	float: left;
+	position: relative;
+	top: 195px;
+}
+
+header p
+{
+	color: white;
+	font-size: 30px;
+	position: relative;
+	top: 280px;
+}
